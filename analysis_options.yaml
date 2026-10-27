@@ -1,4 +1,8 @@
 # This file configures the analyzer to ensure standard Flutter best practices.
+analyzer:
+  exclude:
+    - build/**
+    - web/**
 include: package:flutter_lints/flutter.yaml
 
 linter:
